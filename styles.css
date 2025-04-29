@@ -1,92 +1,66 @@
 /* General Styles */
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
     color: #333;
-    background-color: #f3f4f6;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #002855;
-    color: #fff;
-}
-
-.nav-bar ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.nav-bar a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.hero {
+    background-color: #1E6091;
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 4rem 2rem;
-    background-color: #ffd700;
-    color: #002855;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background-color: #00a86b;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+.logo {
+    font-size: 24px;
     font-weight: bold;
-    margin-top: 1rem;
 }
 
-.about, .services, .insights, .contact {
-    padding: 2rem;
-    background-color: #fff;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.service {
-    margin-bottom: 1.5rem;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
-input, textarea {
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+h2 {
+    color: #1E6091;
+    text-align: center;
 }
 
-button {
-    padding: 0.8rem 1.2rem;
-    background-color: #00a86b;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.service-list {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.service-list li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #606060;
+    color: white;
+    display: inline-block;
+}
+
+.service-list li a {
+    color: white;
+    text-decoration: none;
 }
 
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #002855;
-    color: #fff;
-}
-
-.social-links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+    padding: 20px;
+    background-color: #606060;
+    color: white;
 }
