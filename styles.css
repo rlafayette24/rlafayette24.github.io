@@ -1,4 +1,4 @@
-/* General Styles */
+/* General */
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -7,16 +7,12 @@ body {
     color: #333;
 }
 
+/* Header */
 header {
     background-color: #1E6091;
     color: white;
-    padding: 20px;
     text-align: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+    padding: 20px;
 }
 
 nav ul {
@@ -34,33 +30,40 @@ nav ul li a {
     text-decoration: none;
 }
 
-h2 {
-    color: #1E6091;
+/* Hero Section */
+#hero {
     text-align: center;
-}
-
-.service-list {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-}
-
-.service-list li {
-    margin: 10px;
-    padding: 10px;
-    background-color: #606060;
+    padding: 60px;
+    background: linear-gradient(to right, #1E6091, #606060);
     color: white;
-    display: inline-block;
 }
 
-.service-list li a {
+.cta-button {
+    background-color: #f4f4f4;
+    color: #1E6091;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Services Grid */
+.service-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: #606060;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.service-item a {
     color: white;
     text-decoration: none;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #606060;
-    color: white;
 }
